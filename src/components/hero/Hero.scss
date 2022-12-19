@@ -1,0 +1,16 @@
+.hero-image{
+    background: url('../../images/hero-img.jpg');
+    width: 100%;    
+    height: calc(100vh - 400px);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    filter: opacity(0.9);
+
+    .hero-text{
+        font-size: 85px;
+        color: white;
+    }
+}
