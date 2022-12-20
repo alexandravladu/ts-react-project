@@ -1,0 +1,64 @@
+/* Created the css file for the to-do component, must be imported and exported into the App component  */
+
+.App {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height:100vh;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .welcome {
+    background-color: antiquewhite;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+  }
+
+  .header {
+    flex: 30%;
+    background-color: #1fdeb0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header .inputContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header input {
+    width: 200px;
+    height: 40px;
+    border:none;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+  }
+
+  .header button {
+    width: 80px;
+    height: 123px;
+    border:none;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    padding-left: 10px;
+    cursor: pointer;
+  }
+
+  .todoList {
+    flex: 70%;
+    width: 100%;
+  }
