@@ -1,6 +1,6 @@
 import Accordion from '../../components/accordion/Accordion';
 import Hero from '../../components/hero/Hero';
-import Todo from '../../components/toDo/Todo';
+// import Todo from '../../components/toDo/Todo';
 
 const Home = () => {
 
@@ -8,7 +8,7 @@ const Home = () => {
     <div>
         <Hero title='Welcome' />
         <Accordion />
-        <Todo />
+        {/* <Todo /> */}
     </div>
     
     

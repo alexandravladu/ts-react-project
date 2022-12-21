@@ -1,5 +1,5 @@
 .accordion {
-    width: 500px;
+    width: 600px;
   }
 
 .wrapper {
@@ -19,14 +19,14 @@
 }
 
 .title {
-  color: blue;
+  color: black;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .content {
-  color: rgb(0, 0, 0);
+  color: rgb(218, 8, 8);
   max-height: 0;
   overflow: hidden;
   transition:  all 0.5s cubic-bezier(0,1,0,1);

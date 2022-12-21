@@ -10,6 +10,7 @@ import {
 import Home from "./pages/home/Home";
 import Facts from "./pages/facts/Facts";
 // import Support from "./pages/Support";
+import PlanYourTrip from './pages/planYourTrip/PlanYourTrip';
 
 
 const App: React.FC = () => {
@@ -18,7 +19,7 @@ const App: React.FC = () => {
       <Routes>
         <Route path="/" element={<><NavBar /><Home /></>}></Route>
         <Route path="/facts" element={<><NavBar/><Facts /> </>}></Route>
-        {/* <Route path="/support" element={<><NavBar/><Support /> </>}></Route> */}
+        <Route path="/planYourTrip" element={<><NavBar/><PlanYourTrip /> </>}></Route>
       </Routes>
     </Router>
   );
