@@ -11,11 +11,13 @@ import Home from "./pages/home/Home";
 import Facts from "./pages/facts/Facts";
 // import Support from "./pages/Support";
 import PlanYourTrip from './pages/planYourTrip/PlanYourTrip';
+import Sidebar from './components/sidebar/SideStyling';
 
 
 const App: React.FC = () => {
   return (
     <Router>
+      <Sidebar />
       <Routes>
         <Route path="/" element={<><NavBar /><Home /></>}></Route>
         <Route path="/facts" element={<><NavBar/><Facts /> </>}></Route>
