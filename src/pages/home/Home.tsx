@@ -10,7 +10,7 @@ const Home = () => {
         <Hero title='Welcome' />
         <Accordion />
       
-        {/* <Todo /> */}
+       
        
      <Footer /> 
     </div>
