@@ -62,3 +62,52 @@
     flex: 70%;
     width: 100%;
   }
+
+  .todoList {
+    flex: 70%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-top:50px;
+    flex-direction: column;
+  }
+
+  .task{
+    width: 500px;
+    height: 50px;
+    display: flex;
+    color: white;
+    margin: 15px;
+  }
+
+  .task .todo-cont {
+    flex: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .task .todo-cont span{
+    display: grid;
+    place-items: center;
+    border: 1px solid plum;
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    border-right: none;
+    background-color: blueviolet;
+  }
+
+  .task button {
+    flex: 20%;
+    height: 100%;
+    border: none;
+    background-color: brown;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    color: white;
+    cursor: pointer;
+  }
+
+

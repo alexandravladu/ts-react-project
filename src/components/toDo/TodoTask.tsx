@@ -10,7 +10,7 @@ interface Props {
 const TodoTask = ({ task, completeTask }: Props) => {
   return (
     <div className='task'>
-        <div className='content'>
+        <div className='todo-cont'>
             <span> {task.taskName}</span>
             <span> {task.deadline} </span>
         </div>
