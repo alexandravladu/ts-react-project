@@ -17,7 +17,7 @@ import Sidebar from './components/sidebar/SideStyling';
 const App: React.FC = () => {
   return (
     <Router>
-      <Sidebar />
+      {/* <Sidebar /> */}
       <Routes>
         <Route path="/" element={<><NavBar /><Home /></>}></Route>
         <Route path="/facts" element={<><NavBar/><Facts /> </>}></Route>

@@ -12,24 +12,29 @@
   body {
     margin: 0;
     padding: 0;
+    font-family: 'Damion', cursive;
   }
 
   .welcome {
-    background-color: antiquewhite;
+    background: rgb(34,193,195);
+    background: radial-gradient(circle, rgba(34,193,195,1) 16%, rgba(253,187,45,1) 92%);
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 3%;
+    font-family: 'Damion', cursive;
   }
 
   .toDo {
     flex: 30%;
-    background-color: #1fdeb0;
+    background: rgb(34,193,195);
+    background: radial-gradient(circle, rgba(34,193,195,1) 16%, rgba(253,187,45,1) 92%);
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 50px;
   }
 
   .toDo .inputContainer {
@@ -38,17 +43,30 @@
   }
 
   .toDo input {
-    width: 200px;
+    /* width: 200px;
     height: 40px;
     border:none;
     border-bottom-left-radius: 8px;
     border-top-left-radius: 8px;
     padding: 10px;
     font-size: 17px;
-    border: 1px solid grey;
+    border: 1px solid grey; */
+    height: 40px;
+    line-height: 28px;
+    padding: 0 1rem;
+    margin-top: 20px;
+    width: 100%;
+    padding-left: 2.5rem;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    outline: none;
+    background-color: #D9E8D8;
+    color: #0d0c22;
+    box-shadow: 0 0 5px #C1D9BF, 0 0 0 10px #f5f5f5eb;
+    transition: .3s ease;
   }
 
-  .toDo button {
+  /* .toDo button {
     width: 80px;
     height: 123px;
     border:none;
@@ -56,7 +74,7 @@
     border-top-right-radius: 8px;
     padding-left: 10px;
     cursor: pointer;
-  }
+  } */
 
   .todoList {
     flex: 70%;
@@ -91,23 +109,61 @@
   .task .todo-cont span{
     display: grid;
     place-items: center;
-    border: 1px solid plum;
+    /* border: 1px solid plum;
     width: 100%;
     height: 100%;
     font-size: 18px;
     border-right: none;
-    background-color: blueviolet;
+    background-color: blueviolet; */
+    font-size: 18px;
+    height: 100%;
+    line-height: 28px;
+    width: 100%;
+   margin-left: 30px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    outline: none;
+    background-color: #D9E8D8;
+    color: #0d0c22;
+    box-shadow: 0 0 5px #C1D9BF, 0 0 0 10px #f5f5f5eb;
+    transition: .3s ease;
   }
 
   .task button {
     flex: 20%;
     height: 100%;
     border: none;
+    margin-top: -1.5px;
+    margin-left: 25px;
     background-color: brown;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
     color: white;
     cursor: pointer;
+  
   }
 
-
+  /*  */
+  button {
+    margin: 12px;
+    height: 50px;
+    width: 120px;
+    border-radius: 10px;
+    background: #333;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -5px -5px 15px #444, 5px 5px 15px #222, inset 5px 5px 10px #444, inset -5px -5px 10px #222;
+    font-family: 'Damion', cursive;
+    border: none;
+    font-size: 16px;
+    color: rgb(161, 161, 161);
+    transition: 500ms;
+    margin-left: 7%;
+  }
+  
+  button:hover {
+    box-shadow: -5px -5px 15px #444, 5px 5px 15px #222, inset 5px 5px 10px #222, inset -5px -5px 10px #444;
+    color: #d6d6d6;
+    transition: 500ms;
+  }
+   
