@@ -22,7 +22,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 3%;
+    padding: 2%;
     font-family: 'Damion', cursive;
   }
 
@@ -34,7 +34,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px;
+   padding-bottom: 6%;
   }
 
   .toDo .inputContainer {
