@@ -1,0 +1,30 @@
+.combi-block-container-img-left{
+    display: flex;
+    padding: 15px 20px;
+}
+.combi-block-container-img-right{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 15px 20px;
+}
+
+.combi-block-image-container {
+    position: relative;
+    display: block;
+    width: 250px;
+    height: 250px;
+}
+
+.combi-block-text-container {
+    width: 100%;
+    height: 300px;
+    padding: 0px 20px;
+}
+
+.combi-block-heading {
+    font-size: 48px;
+}
+
+.combi-block-text{
+    color: #222222;;
+}
