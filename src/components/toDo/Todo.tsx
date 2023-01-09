@@ -38,6 +38,7 @@ const Todo:FC = () => {
           <div className="App">
             <div className="welcome">
             <h1> Plan your trip </h1>
+           
             </div>
           <div className='toDo'>
 
