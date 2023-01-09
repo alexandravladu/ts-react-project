@@ -4,16 +4,10 @@
 
 .wrapper {
   display: flex;
-  height: 70vh;
+  height: 78vh;
   width: 80vw;
   justify-content: center;
-  align-items: center;
-}  
-
-
-.item {
-  background: white;
-  margin-bottom: 5px;
+  align-itin-bottom: 5px;
   padding: 10px 20px;
   cursor: pointer;
 }

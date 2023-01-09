@@ -1,6 +1,7 @@
 import Footer from "../../components/footer/Footer";
 import "./Facts.css";
 import Hero from "../../components/hero/Hero";
+import FactSection from "../../components/facts/FactSection";
 
 const Facts = () => {
   return (
@@ -8,10 +9,10 @@ const Facts = () => {
 
       <Hero title='Facts Section' />
 
-      <h1 id="main-title">Facts Sections</h1>
+   
+      <FactSection />
 
-
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };
